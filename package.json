@@ -1,0 +1,33 @@
+{
+  "name": "scoreboard",
+  "version": "1.0.0",
+  "description": "The scoreboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved, using external Leaderboard API service.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbayomiOlaoye/scoreboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbayomiOlaoye/scoreboard/issues"
+  },
+  "homepage": "https://github.com/AbayomiOlaoye/scoreboard#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
