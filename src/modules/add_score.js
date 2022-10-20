@@ -1,14 +1,16 @@
 // eslint-disable-next-line import/no-cycle
 import form from '../index.js';
+import sendData from './postScore.js';
 
 const getInputs = (e) => {
   e.preventDefault();
   const scorer = document.querySelector('#name').value;
   const score = document.querySelector('#points').value;
-  const list = document.querySelector('.list');
-  const livescore = document.createElement('li');
-  livescore.textContent = `${scorer}: ${score}`;
-  list.appendChild(livescore);
+  const info = {
+    user: scorer,
+    score,
+  };
+  sendData('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ScoreBoard_Microverse/scores/', info);
   form.reset();
 };
 
