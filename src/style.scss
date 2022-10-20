@@ -13,7 +13,7 @@
 }
 
 $darkest: #111827;
-$gray: #6b7280;
+$gray: rgba(107, 114, 128, 0.5);
 
 body {
   width: 100%;
@@ -25,22 +25,27 @@ body {
   }
 
   .container {
-    width: 80%;
+    width: 90%;
     margin: 3rem auto;
 
     .board {
       display: flex;
       justify-content: space-around;
+      margin: 0 5rem;
 
       .recent {
+        width: 100%;
+
         .ref_scores {
           display: flex;
+          align-items: center;
           gap: 2rem;
         }
 
         .scores {
           border: 1px solid $darkest;
           margin: 2rem 0;
+          width: 70%;
 
           .list {
             li {

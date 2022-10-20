@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n* ul {\n  list-style-type: none;\n}\n* button {\n  padding: 0.5rem;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n}\nbody header {\n  width: 80%;\n  margin: 3rem auto;\n}\nbody .container {\n  width: 80%;\n  margin: 3rem auto;\n}\nbody .container .board {\n  display: flex;\n  justify-content: space-around;\n}\nbody .container .board .recent .ref_scores {\n  display: flex;\n  gap: 2rem;\n}\nbody .container .board .recent .scores {\n  border: 1px solid #111827;\n  margin: 2rem 0;\n}\nbody .container .board .recent .scores .list li {\n  padding: 0.5rem;\n  font-size: 1.2rem;\n}\nbody .container .board .recent .scores .list li:nth-child(odd) {\n  background: #6b7280;\n}\nbody .container .board .input_div .form {\n  display: flex;\n  flex-direction: column;\n  margin-top: 2.25rem;\n  gap: 1rem;\n}\nbody .container .board .input_div .form input {\n  height: 36px;\n  padding: 0.5rem;\n  font-size: 1.2rem;\n}\nbody .container .board .input_div .form button {\n  width: auto;\n  align-self: flex-end;\n}", "",{"version":3,"sources":["webpack://./src/style.scss"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;AACF;AACE;EACE,qBAAA;AACJ;AAEE;EACE,eAAA;AAAJ;;AAOA;EACE,WAAA;EACA,aAAA;AAJF;AAME;EACE,UAAA;EACA,iBAAA;AAJJ;AAOE;EACE,UAAA;EACA,iBAAA;AALJ;AAOI;EACE,aAAA;EACA,6BAAA;AALN;AAQQ;EACE,aAAA;EACA,SAAA;AANV;AASQ;EACE,yBAAA;EACA,cAAA;AAPV;AAUY;EACE,eAAA;EACA,iBAAA;AARd;AAUc;EACE,mBAnCT;AA2BP;AAgBQ;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;AAdV;AAgBU;EACE,YAAA;EACA,eAAA;EACA,iBAAA;AAdZ;AAiBU;EACE,WAAA;EACA,oBAAA;AAfZ","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n\n  ul {\n    list-style-type: none;\n  }\n\n  button {\n    padding: 0.5rem;\n  }\n}\n\n$darkest: #111827;\n$gray: #6b7280;\n\nbody {\n  width: 100%;\n  height: 100vh;\n\n  header {\n    width: 80%;\n    margin: 3rem auto;\n  }\n\n  .container {\n    width: 80%;\n    margin: 3rem auto;\n\n    .board {\n      display: flex;\n      justify-content: space-around;\n\n      .recent {\n        .ref_scores {\n          display: flex;\n          gap: 2rem;\n        }\n\n        .scores {\n          border: 1px solid $darkest;\n          margin: 2rem 0;\n\n          .list {\n            li {\n              padding: 0.5rem;\n              font-size: 1.2rem;\n\n              &:nth-child(odd) {\n                background: $gray;\n              }\n            }\n          }\n        }\n      }\n\n      .input_div {\n        .form {\n          display: flex;\n          flex-direction: column;\n          margin-top: 2.25rem;\n          gap: 1rem;\n\n          input {\n            height: 36px;\n            padding: 0.5rem;\n            font-size: 1.2rem;\n          }\n\n          button {\n            width: auto;\n            align-self: flex-end;\n          }\n        }\n      }\n    }\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n* ul {\n  list-style-type: none;\n}\n* button {\n  padding: 0.5rem;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n}\nbody header {\n  width: 80%;\n  margin: 3rem auto;\n}\nbody .container {\n  width: 90%;\n  margin: 3rem auto;\n}\nbody .container .board {\n  display: flex;\n  justify-content: space-around;\n  margin: 0 5rem;\n}\nbody .container .board .recent {\n  width: 100%;\n}\nbody .container .board .recent .ref_scores {\n  display: flex;\n  align-items: center;\n  gap: 2rem;\n}\nbody .container .board .recent .scores {\n  border: 1px solid #111827;\n  margin: 2rem 0;\n  width: 70%;\n}\nbody .container .board .recent .scores .list li {\n  padding: 0.5rem;\n  font-size: 1.2rem;\n}\nbody .container .board .recent .scores .list li:nth-child(odd) {\n  background: rgba(107, 114, 128, 0.5);\n}\nbody .container .board .input_div .form {\n  display: flex;\n  flex-direction: column;\n  margin-top: 2.25rem;\n  gap: 1rem;\n}\nbody .container .board .input_div .form input {\n  height: 36px;\n  padding: 0.5rem;\n  font-size: 1.2rem;\n}\nbody .container .board .input_div .form button {\n  width: auto;\n  align-self: flex-end;\n}", "",{"version":3,"sources":["webpack://./src/style.scss"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;AACF;AACE;EACE,qBAAA;AACJ;AAEE;EACE,eAAA;AAAJ;;AAOA;EACE,WAAA;EACA,aAAA;AAJF;AAME;EACE,UAAA;EACA,iBAAA;AAJJ;AAOE;EACE,UAAA;EACA,iBAAA;AALJ;AAOI;EACE,aAAA;EACA,6BAAA;EACA,cAAA;AALN;AAOM;EACE,WAAA;AALR;AAOQ;EACE,aAAA;EACA,mBAAA;EACA,SAAA;AALV;AAQQ;EACE,yBAAA;EACA,cAAA;EACA,UAAA;AANV;AASY;EACE,eAAA;EACA,iBAAA;AAPd;AASc;EACE,oCAxCT;AAiCP;AAeQ;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;AAbV;AAeU;EACE,YAAA;EACA,eAAA;EACA,iBAAA;AAbZ;AAgBU;EACE,WAAA;EACA,oBAAA;AAdZ","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n\n  ul {\n    list-style-type: none;\n  }\n\n  button {\n    padding: 0.5rem;\n  }\n}\n\n$darkest: #111827;\n$gray: rgba(107, 114, 128, 0.5);\n\nbody {\n  width: 100%;\n  height: 100vh;\n\n  header {\n    width: 80%;\n    margin: 3rem auto;\n  }\n\n  .container {\n    width: 90%;\n    margin: 3rem auto;\n\n    .board {\n      display: flex;\n      justify-content: space-around;\n      margin: 0 5rem;\n\n      .recent {\n        width: 100%;\n\n        .ref_scores {\n          display: flex;\n          align-items: center;\n          gap: 2rem;\n        }\n\n        .scores {\n          border: 1px solid $darkest;\n          margin: 2rem 0;\n          width: 70%;\n\n          .list {\n            li {\n              padding: 0.5rem;\n              font-size: 1.2rem;\n\n              &:nth-child(odd) {\n                background: $gray;\n              }\n            }\n          }\n        }\n      }\n\n      .input_div {\n        .form {\n          display: flex;\n          flex-direction: column;\n          margin-top: 2.25rem;\n          gap: 1rem;\n\n          input {\n            height: 36px;\n            padding: 0.5rem;\n            font-size: 1.2rem;\n          }\n\n          button {\n            width: auto;\n            align-self: flex-end;\n          }\n        }\n      }\n    }\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -542,19 +542,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ "./src/style.scss");
 /* harmony import */ var _modules_add_score_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/add_score.js */ "./src/modules/add_score.js");
+/* harmony import */ var _modules_getScores_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/getScores.js */ "./src/modules/getScores.js");
+/* harmony import */ var _modules_render_scores_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/render_scores.js */ "./src/modules/render_scores.js");
 
 // eslint-disable-next-line import/no-cycle
+
+
 
 
 const form = document.querySelector('.form');
 
 document.addEventListener('DOMContentLoaded', () => {
   form.addEventListener('submit', _modules_add_score_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
-  form.reset();
+
+  document.querySelector('#refresh').addEventListener('click', () => {
+    document.querySelector('.list').innerHTML = '';
+    (0,_modules_getScores_js__WEBPACK_IMPORTED_MODULE_2__["default"])()
+      .then((res) => res.json())
+      .then((data) => (0,_modules_render_scores_js__WEBPACK_IMPORTED_MODULE_3__["default"])(data.result));
+  });
 });
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (form);
-
 
 /***/ }),
 
@@ -569,21 +578,92 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../index.js */ "./src/index.js");
+/* harmony import */ var _postScore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./postScore.js */ "./src/modules/postScore.js");
 // eslint-disable-next-line import/no-cycle
+
 
 
 const getInputs = (e) => {
   e.preventDefault();
   const scorer = document.querySelector('#name').value;
   const score = document.querySelector('#points').value;
-  const list = document.querySelector('.list');
-  const livescore = document.createElement('li');
-  livescore.textContent = `${scorer}: ${score}`;
-  list.appendChild(livescore);
+  const info = {
+    user: scorer,
+    score,
+  };
+  (0,_postScore_js__WEBPACK_IMPORTED_MODULE_1__["default"])('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ScoreBoard_Microverse/scores/', info);
   _index_js__WEBPACK_IMPORTED_MODULE_0__["default"].reset();
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getInputs);
+
+/***/ }),
+
+/***/ "./src/modules/getScores.js":
+/*!**********************************!*\
+  !*** ./src/modules/getScores.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const getScores = async () => {
+  const scores = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ScoreBoard_Microverse/scores/');
+  return scores;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScores);
+
+/***/ }),
+
+/***/ "./src/modules/postScore.js":
+/*!**********************************!*\
+  !*** ./src/modules/postScore.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const sendData = async (baseURL, info) => {
+  const response = await fetch(baseURL, {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify(info),
+  });
+  return response;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sendData);
+
+
+/***/ }),
+
+/***/ "./src/modules/render_scores.js":
+/*!**************************************!*\
+  !*** ./src/modules/render_scores.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const displayUI = (result) => {
+  const list = document.querySelector('.list');
+  result.forEach((player) => {
+    const livescore = document.createElement('li');
+    livescore.textContent = `${player.user}: ${player.score}`;
+    list.appendChild(livescore);
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (displayUI);
 
 /***/ })
 
@@ -668,4 +748,4 @@ const getInputs = (e) => {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle52de71c0efdf5c754297.js.map
+//# sourceMappingURL=bundle45b5e8118690cc0d4bfb.js.map
