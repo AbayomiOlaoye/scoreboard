@@ -1,84 +1,86 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import "~bootstrap/scss/bootstrap";
 
-  ul {
-    list-style-type: none;
-  }
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
 
-  button {
-    padding: 0.5rem;
-  }
-}
+//   ul {
+//     list-style-type: none;
+//   }
 
-$darkest: #111827;
-$gray: rgba(107, 114, 128, 0.5);
+//   button {
+//     padding: 0.5rem;
+//   }
+// }
 
-body {
-  width: 100%;
-  height: 100vh;
+// $darkest: #111827;
+// $gray: rgba(107, 114, 128, 0.5);
 
-  header {
-    width: 80%;
-    margin: 3rem auto;
-  }
+// body {
+//   width: 100%;
+//   height: 100vh;
 
-  .container {
-    width: 90%;
-    margin: 3rem auto;
+//   header {
+//     width: 80%;
+//     margin: 3rem auto;
+//   }
 
-    .board {
-      display: flex;
-      justify-content: space-around;
-      margin: 0 5rem;
+//   .container {
+//     width: 80%;
+//     margin: 3rem auto;
 
-      .recent {
-        width: 100%;
+//     .board {
+//       display: flex;
+//       justify-content: space-around;
+//       margin: 0 5rem;
 
-        .ref_scores {
-          display: flex;
-          align-items: center;
-          gap: 2rem;
-        }
+//       .recent {
+//         width: 100%;
 
-        .scores {
-          border: 1px solid $darkest;
-          margin: 2rem 0;
-          width: 70%;
+//         .ref_scores {
+//           display: flex;
+//           align-items: center;
+//           gap: 2rem;
+//         }
 
-          .list {
-            li {
-              padding: 0.5rem;
-              font-size: 1.2rem;
+//         .scores {
+//           border: 1px solid $darkest;
+//           margin: 2rem 0;
+//           width: 70%;
 
-              &:nth-child(odd) {
-                background: $gray;
-              }
-            }
-          }
-        }
-      }
+//           .list {
+//             li {
+//               padding: 0.5rem;
+//               font-size: 1.2rem;
 
-      .input_div {
-        .form {
-          display: flex;
-          flex-direction: column;
-          margin-top: 2.25rem;
-          gap: 1rem;
+//               &:nth-child(odd) {
+//                 background: $gray;
+//               }
+//             }
+//           }
+//         }
+//       }
 
-          input {
-            height: 36px;
-            padding: 0.5rem;
-            font-size: 1.2rem;
-          }
+//       .input_div {
+//         .form {
+//           display: flex;
+//           flex-direction: column;
+//           margin-top: 2.25rem;
+//           gap: 1rem;
 
-          button {
-            width: auto;
-            align-self: flex-end;
-          }
-        }
-      }
-    }
-  }
-}
+//           input {
+//             height: 36px;
+//             padding: 0.5rem;
+//             font-size: 1.2rem;
+//           }
+
+//           button {
+//             width: auto;
+//             align-self: flex-end;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

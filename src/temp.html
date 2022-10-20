@@ -7,22 +7,22 @@
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-  <header>
-    <h1 class="logo">Score<span>Board</span></h1>
-  </header>
-  <div class="container">
+  <div class="container-fluid p-5 bg-dark text-white text-center">
+    <h1 class="display-4">Score<span class="small text-dark mark">Board</span> App</h1>
+  </div>
+  <div class="container-sm pt-5">
     <div class="board">
       <div class="recent">
         <div class="ref_scores">
-          <h2 class="text">Recent Score</h2>
+          <h2 class="display-6">Recent Score</h2>
           <button type="button" id="refresh">Refresh</button>
         </div>
         <div class="scores">
-          <ul class="list"></ul>
+          <ul class="list-unstyled"></ul>
         </div>
       </div>
       <div class="input_div">
-        <h2 class="text">Add your score</h2>
+        <h2 class="display-6">Add your score</h2>
         <form action="#" class="form">
           <input type="text" placeholder="Your name" id="name" required>
           <input type="number" placeholder="Your score" id="points" required>
