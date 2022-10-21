@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   form.addEventListener('submit', getInputs);
 
   document.querySelector('#refresh').addEventListener('click', () => {
-    document.querySelector('.list').innerHTML = '';
+    document.querySelector('tbody').innerHTML = '';
     getScores()
       .then((res) => res.json())
       .then((data) => displayUI(data.result));

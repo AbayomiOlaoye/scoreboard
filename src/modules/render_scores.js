@@ -1,9 +1,12 @@
 const displayUI = (result) => {
-  const list = document.querySelector('.list');
+  const table = document.querySelector('tbody');
   result.forEach((player) => {
-    const livescore = document.createElement('li');
-    livescore.textContent = `${player.user}: ${player.score}`;
-    list.appendChild(livescore);
+    table.innerHTML += `
+      <tr>
+        <td>${player.user}</td>
+        <td>${player.score}</td>
+      </tr>
+    `;
   });
 };
 

@@ -10,6 +10,7 @@ const getInputs = (e) => {
     user: scorer,
     score,
   };
+
   sendData('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ScoreBoard_Microverse/scores/', info);
   form.reset();
 };
