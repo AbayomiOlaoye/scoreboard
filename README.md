@@ -9,7 +9,12 @@ The scoreboard website displays scores submitted by different players. It also a
   - CSS
  
 ## Live link
-This will be updated as soon as it is deployed and available
+See live version [here](https://abayomiolaoye.github.io/scoreboard/dist)
+
+## Snapshots
+![image](https://user-images.githubusercontent.com/99715640/197195794-3531c78b-5ddd-4d37-ab61-fed3db9c62a6.png)
+![image](https://user-images.githubusercontent.com/99715640/197196130-09b9cb5c-aea4-492a-8466-6d5ccb80161e.png)
+![image](https://user-images.githubusercontent.com/99715640/197196468-9d47615f-5f1f-4035-8f45-1873c554fa72.png)
 
 ## Getting Started
 > Clone this repository
