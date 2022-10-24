@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScoreBoard</title>
+<script defer src="bundlee328e57779e9d81c84a5.js"></script></head>
+<body class="opacity-75">
+  <div class="container-fluid p-5 bg-dark text-white text-center">
+    <h1 class="display-4 text-muted">Score<span class="small text-dark mark">Board</span> App</h1>
+  </div>
+  <div class="container pt-5">
+    <div class="row justify-content-around">
+      <div class="col-sm-8">
+        <div class="row justify-content-around pe-3">
+          <h2 class="display-6 col-8">Recent Score</h2>
+          <button type="button" id="refresh" class="col-4 btn btn-primary">Refresh</button>
+        </div>
+        <div class="scores mt-3 table-responsive-sm">
+          <table class="table table-hover table-dark p-3">
+            <thead class="table-success">
+              <tr>
+                <th>Player's Name</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Contents generated and received from API -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-5 p-5">
+        <h2 class="display-6 text-white">Add your score</h2>
+        <form action="#" class="form row gy-2 mt-3 clearfix">
+          <input type="text" placeholder="Your name" id="name" class="col-12 form-control-lg" required>
+          <input type="number" placeholder="Your score" id="points" class="col-12 form-control-lg" required>
+          <button class="col-4 btn btn-primary float-end" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
