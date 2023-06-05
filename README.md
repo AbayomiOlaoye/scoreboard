@@ -32,7 +32,7 @@ See live version [here](https://abayomiolaoye.github.io/scoreboard/dist)
 
 👤 **Oluwatoyin Olaoye**
 
-  - GitHub: @AbayomiOlaoye
+  - GitHub: [AbayomiOlaoye](https://www.github.com/AbayomiOlaoye)
   - LinkedIn: [oluwatoyinolaoye](https://www.linkedin.com/oluwatoyinolaoye)
 
 🤝 **Contributing**
